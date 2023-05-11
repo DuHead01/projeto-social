@@ -20,8 +20,10 @@ main{
 }
 
 body{
-    background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat center;
+    background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat center center;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 #telefone{
@@ -36,4 +38,14 @@ body{
     height: 627px;
     background-color: blue;
     background: url('../pacote-d013/imagens/frame-iphone.png' )no-repeat;
+}
+
+#frame{
+    position: relative;
+    top:80px;
+    left:23px ;
+
+    width:266px  ;
+    height: 471px;
+    
 }
